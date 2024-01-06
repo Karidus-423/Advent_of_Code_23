@@ -1,11 +1,9 @@
 #![allow(non_snake_case)]
 
-use std::i32;
-
 use reqwest;
 
 fn main() {
-    let document_url = "https://adventofcode.com/2023/day/2/input";
+    let document_url = "https://adventofcode.com/2023/day/3/input";
 
     let session_cookie = "_ga=GA1.2.400933693.1701306380; _ga_MHSNPJKWC7=GS1.2.1701439397.3.1.1701439518.0.0.0; session=53616c7465645f5f394579877731ffb5dc556c39284b49b784509ed6bbe8345ed048ec5b8d3a3a885d3c00b33f17e8119deec30625c144d031caaa2678a460bd; _gid=GA1.2.1699704916.1701436300";
 
